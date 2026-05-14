@@ -13,17 +13,21 @@ let resetBtn = document.getElementById("resetBtn");
 changeTextBtn.onclick = function() {
     heading.innerText = input.value;
 };
+//on.change
+input.onchange = function() {
+
+};
 // 2. Change Background Color (addEventListener)
 colorBtn.addEventListener("click", function() {
     document.body.style.backgroundColor = "lightblue";
 });
 // 3. Change Font Size (onmouseover)
-fontBtn.onmouseover = function() {
-    heading.style.fontSize = "40px";
-};
+document.getElementById("fontBtn").addEventListener("mouseover", function() {
+ heading.style.fontSize = "40px";
+});
 // 4. Show/Hide Paragraph
 let isVisible = true;
-toggleBtn.addEventListener("click", function() {
+toggleBtn.addEventListener("onclick", function() {
     if (isVisible) {
         para.style.display = "none";
         isVisible = false;
@@ -37,10 +41,14 @@ input.onchange = function() {
     console.log("Input changed to: " + input.value);
 };
 // 6. Reset Page
-resetBtn.addEventListener("click", function() {
+resetBtn.addEventListener("onclick", function() {
     heading.innerText = "Welcome to JavaScript DOM";
     document.body.style.backgroundColor = "white";
     heading.style.fontSize = "24px";
     para.style.display = "block";
     input.value = "";
 });
+// 7. Mouseover Event
+heading.onmouseover = function() {
+    heading.style.color = "red";
+}

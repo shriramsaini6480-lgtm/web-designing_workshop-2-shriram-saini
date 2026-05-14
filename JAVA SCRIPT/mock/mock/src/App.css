@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f2dc;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+.title {
+  color: darkred;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.bottom-card {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: left;
+  border: 4px solid;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.card p {
+  font-size: 18px;
+  color: white;
+  margin: 12px 0;
+}
+
+.blue-card {
+  background-color: #a9c9d8;
+  border-color: blue;
+}
+
+.blue-card h2 {
+  color: darkblue;
+}
+
+.green-card {
+  background-color: #8fe28b;
+  border-color: green;
+}
+
+.green-card h2 {
+  color: darkgreen;
+}
+
+.pink-card {
+  background-color: #efb6c1;
+  border-color: red;
+}
+
+.pink-card h2 {
+  color: darkred;
+}

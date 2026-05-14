@@ -1,0 +1,89 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #120f01;
+}
+
+.container {
+  text-align: center;
+   color: tomato;
+  padding: 30px;
+}
+
+.title {
+  color: darkred;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.bottom-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  width: 320px;
+  padding: 25px;
+  border-radius: 18px;
+  border: 4px solid;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.card p {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Blue Card */
+
+.blue-card {
+  background-color: #a9c9d6;
+  border-color: blue;
+}
+
+.blue-card h2 {
+  color: darkblue;
+}
+
+/* Green Card */
+
+.green-card {
+  background-color: #8ee28a;
+  border-color: green;
+}
+
+.green-card h2 {
+  color: darkgreen;
+}
+
+/* Pink Card */
+
+.pink-card {
+  background-color: #efb5c0;
+  border-color: red;
+}
+
+.pink-card h2 {
+  color: darkred;
+}
