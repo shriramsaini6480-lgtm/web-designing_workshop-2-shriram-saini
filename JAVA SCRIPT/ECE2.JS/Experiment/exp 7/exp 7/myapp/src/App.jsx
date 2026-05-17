@@ -1,9 +1,13 @@
-import Student from "./Student";
-function App(){
-  return(
+import Greeting from "./Greeting";
+import Header from "./components/Header";
+import StudentCard from "./components/StudentCard";
+function App() {
+  return (
     <div>
-      <h1>student list</h1>
-    <Student />
+      <Header title="📋 Student App" />
+<StudentCard name="SHRIRAM" marks={92} />
+      <StudentCard name="SOMAYA" marks={78} />
+      <StudentCard name="NITIN" marks={85} />
     </div>
   );
 }
