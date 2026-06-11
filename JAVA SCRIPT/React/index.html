@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Component</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+</head>
+<body>
+    <div id="root">
+        <script type="text/babel">
+            
+            // function Welcome() {
+            //     return <h1> Welcome to React Functional Component</h1>;
+            // }
+            // const root = reactDOM.create(document.getElementById("root"));
+            // root.render(<Welcome />);
+
+        function Welcome(props){
+            return <h2>Hello {props.name}</h2>;
+        }
+
+        function App(){
+            return(
+                <div>
+                    <Welcome name="Rahul"/>
+                    <Welcome name="Anita"/>
+                    <Welcome name="Rohan"/>
+                </div>
+            );
+        }
+        </script>
+</body>
+</html>
